@@ -26970,6 +26970,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="wide" width="0.5" drill="0">
+</class>
 </classes>
 <parts>
 <part name="J1" library="con-rj45" deviceset="8P8C-LED" device=""/>
@@ -27534,7 +27536,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="0" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -27606,7 +27608,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="P+13" gate="1" pin="+12V"/>
 </segment>
 </net>
-<net name="+5V_ISO" class="0">
+<net name="+5V_ISO" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD2"/>
 <wire x1="48.26" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
@@ -28446,7 +28448,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="251.46" y1="33.02" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <wire x1="226.06" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="119.38" x2="226.06" y2="124.46" width="0.1524" layer="91"/>
