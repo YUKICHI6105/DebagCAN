@@ -27684,16 +27684,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="60.96" y1="68.58" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CANRX_ISO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="RXD"/>
-<wire x1="96.52" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-<label x="71.12" y="58.42" size="1.778" layer="95"/>
-<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="B2"/>
-<wire x1="60.96" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V_ISO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD2"/>
@@ -27821,6 +27811,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="284.48" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
 <label x="254" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="A-Y"/>
+<wire x1="45.72" y1="165.1" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
+<label x="15.24" y="165.1" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -27936,11 +27931,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="86.36" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
 <label x="91.44" y="35.56" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="A-Y"/>
-<wire x1="45.72" y1="165.1" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
-<label x="15.24" y="165.1" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="N$25" class="0">
 <segment>
@@ -27954,6 +27944,15 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U6" gate="G$1" pin="EMIT"/>
 <wire x1="68.58" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <label x="50.8" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="RXD"/>
+<wire x1="96.52" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="B2"/>
+<wire x1="60.96" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
