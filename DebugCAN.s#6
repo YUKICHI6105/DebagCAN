@@ -27606,16 +27606,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="P+13" gate="1" pin="+12V"/>
 </segment>
 </net>
-<net name="CANTX_ISO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="TXD"/>
-<wire x1="96.52" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<label x="71.12" y="73.66" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="B1"/>
-<wire x1="43.18" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="68.58" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V_ISO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD2"/>
@@ -27886,6 +27876,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U3" gate="G$1" pin="B2"/>
 <wire x1="60.96" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <label x="71.12" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CANTX_ISO" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="B1"/>
+<wire x1="43.18" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="68.58" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="TXD"/>
+<wire x1="60.96" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<label x="71.12" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
