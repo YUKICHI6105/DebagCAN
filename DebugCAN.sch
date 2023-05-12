@@ -26908,37 +26908,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </library>
 <library name="con-xt">
 <packages>
-<package name="AMASS_XT60PW-M">
-<wire x1="-7.05" y1="0.85" x2="-6.45" y2="0.85" width="0" layer="46"/>
-<wire x1="-6.45" y1="0.85" x2="-6.45" y2="-0.85" width="0" layer="46"/>
-<wire x1="-6.45" y1="-0.85" x2="-7.05" y2="-0.85" width="0" layer="46"/>
-<wire x1="-7.05" y1="-0.85" x2="-7.05" y2="0.85" width="0" layer="46"/>
-<wire x1="6.45" y1="0.85" x2="7.05" y2="0.85" width="0" layer="46"/>
-<wire x1="7.05" y1="0.85" x2="7.05" y2="-0.85" width="0" layer="46"/>
-<wire x1="7.05" y1="-0.85" x2="6.45" y2="-0.85" width="0" layer="46"/>
-<wire x1="6.45" y1="-0.85" x2="6.45" y2="0.85" width="0" layer="46"/>
-<wire x1="-7.75" y1="10.35" x2="-7.75" y2="-7.85" width="0.127" layer="51"/>
-<wire x1="-7.75" y1="-7.85" x2="7.75" y2="-7.85" width="0.127" layer="51"/>
-<wire x1="7.75" y1="-7.85" x2="7.75" y2="10.35" width="0.127" layer="51"/>
-<wire x1="7.75" y1="10.35" x2="-7.75" y2="10.35" width="0.127" layer="51"/>
-<wire x1="-7.75" y1="10.35" x2="-7.75" y2="-7.85" width="0.127" layer="21"/>
-<wire x1="7.75" y1="10.35" x2="-7.75" y2="10.35" width="0.127" layer="21"/>
-<wire x1="7.75" y1="-7.85" x2="7.75" y2="10.35" width="0.127" layer="21"/>
-<wire x1="-7.75" y1="-7.85" x2="-6" y2="-7.85" width="0.127" layer="21"/>
-<wire x1="7.75" y1="-7.85" x2="6" y2="-7.85" width="0.127" layer="21"/>
-<circle x="-5.6" y="-8.5" radius="0.15" width="0.3" layer="21"/>
-<circle x="-5.6" y="-8.5" radius="0.15" width="0.3" layer="51"/>
-<wire x1="-8" y1="10.6" x2="8" y2="10.6" width="0.05" layer="39"/>
-<wire x1="8" y1="10.6" x2="8" y2="-8.1" width="0.05" layer="39"/>
-<wire x1="8" y1="-8.1" x2="-8" y2="-8.1" width="0.05" layer="39"/>
-<wire x1="-8" y1="-8.1" x2="-8" y2="10.6" width="0.05" layer="39"/>
-<text x="-7.80341875" y="10.7047" size="1.270559375" layer="25">&gt;NAME</text>
-<text x="-7.81351875" y="-10.2177" size="1.2722" layer="27">&gt;VALUE</text>
-<pad name="1" x="-3.6" y="-6" drill="2.7" shape="square" thermals="no"/>
-<pad name="2" x="3.6" y="-6" drill="2.7" thermals="no"/>
-<pad name="S1" x="-6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
-<pad name="S2" x="6.75" y="0" drill="1" diameter="1.2" shape="long" rot="R90"/>
-</package>
 <package name="AMASS_XT60PW-F">
 <wire x1="-7.75" y1="-7.85" x2="7.75" y2="-7.85" width="0.127" layer="51"/>
 <wire x1="-7.75" y1="-7.85" x2="-6" y2="-7.85" width="0.127" layer="21"/>
@@ -26975,16 +26944,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </package>
 </packages>
 <symbols>
-<symbol name="M">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-5.08745" y="5.72338125" size="1.780609375" layer="95">&gt;NAME</text>
-<text x="-5.0882" y="-7.632290625" size="1.78086875" layer="96">&gt;VALUE</text>
-<pin name="GND" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="2" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-</symbol>
 <symbol name="F">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -26997,29 +26956,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XT60PW-M" prefix="J">
-<gates>
-<gate name="G$1" symbol="M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AMASS_XT60PW-M">
-<connects>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" "/>
-<attribute name="MF" value="AMASS"/>
-<attribute name="MP" value="XT60PW-M "/>
-<attribute name="PACKAGE" value="Package Analog Devices"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="XT60PW-F" prefix="J">
 <gates>
 <gate name="G$1" symbol="F" x="0" y="0"/>
@@ -27180,9 +27116,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="J4" library="con-usb" deviceset="10118192-0001LF" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J2" library="con-xt" deviceset="XT60PW-M" device=""/>
-<part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="J8" library="con-xt" deviceset="XT60PW-F" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 </parts>
@@ -27437,16 +27370,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="NAME" x="116.332" y="18.3642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.332" y="15.3162" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="251.46" y="58.42" smashed="yes">
-<attribute name="NAME" x="246.37255" y="64.14338125" size="1.780609375" layer="95"/>
-<attribute name="VALUE" x="246.3718" y="50.787709375" size="1.78086875" layer="96"/>
-</instance>
-<instance part="P+15" gate="1" x="218.44" y="55.88" smashed="yes" rot="R90">
-<attribute name="VALUE" x="223.52" y="53.34" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND53" gate="G$1" x="228.6" y="60.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="226.06" y="63.5" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="J8" gate="G$1" x="251.46" y="40.64" smashed="yes">
 <attribute name="NAME" x="246.37255" y="46.36338125" size="1.780609375" layer="95"/>
 <attribute name="VALUE" x="246.3718" y="33.007709375" size="1.78086875" layer="96"/>
@@ -27606,11 +27529,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="U6" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="GND53" gate="G$1" pin="GNDIO"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="231.14" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J8" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="G$1" pin="GNDIO"/>
 <wire x1="241.3" y1="38.1" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
@@ -27714,11 +27632,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="J7" gate="G$1" pin="A-G"/>
 <wire x1="269.24" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="P+15" gate="1" pin="+12V"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="55.88" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
