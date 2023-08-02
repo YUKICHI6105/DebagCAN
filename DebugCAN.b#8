@@ -3361,7 +3361,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.68" y="46.025" size="1.27" layer="25"/>
 <attribute name="VALUE" x="52.43" y="44.215" size="1.27" layer="27"/>
 </element>
-<element name="GNDA" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YELLOW" x="53.7" y="48.835" smashed="yes" rot="R270">
+<element name="D2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YELLOW" x="53.7" y="48.835" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.805" y="48.105" size="1.27" layer="25"/>
 <attribute name="VALUE" x="52.43" y="46.295" size="1.27" layer="27"/>
 </element>
@@ -3557,19 +3557,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.7823" y="33.81351875" size="1.2722" layer="27" rot="R270"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="25.75" y="54.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.26" y="57.115" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="23.26" y="55.115" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="70" x="25.75" y="54.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="25.75" y="54.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.385" y="56.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="24.75" y="40.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.385" y="42.385" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.385" y="40.385" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="70" x="24.75" y="40.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="24.75" y="40.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.845" y="41.385" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="23.125" y="43.875" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.76" y="44.51" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="20.76" y="44.51" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="70" x="23.125" y="43.875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="23.125" y="43.875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="21.22" y="44.51" size="1.27" layer="27" rot="R270"/>
@@ -3922,6 +3922,9 @@ design rules under a new name.</description>
 <via x="18" y="55" extent="1-16" drill="0.35"/>
 <via x="18" y="50" extent="1-16" drill="0.35"/>
 <via x="2" y="43" extent="1-16" drill="0.35"/>
+<via x="39" y="15" extent="1-16" drill="0.35"/>
+<via x="32" y="11" extent="1-16" drill="0.35"/>
+<via x="25" y="11" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
 <contactref element="J1" pad="GC"/>
@@ -3937,10 +3940,10 @@ design rules under a new name.</description>
 <wire x1="35.21" y1="46.8278" x2="35.21" y2="45.8736" width="0.25" layer="1"/>
 <wire x1="35.21" y1="46.8278" x2="28.8602" y2="53.1776" width="0.25" layer="1"/>
 <wire x1="28.6102" y1="53.1776" x2="28.8602" y2="53.1776" width="0.25" layer="1"/>
-<wire x1="26.9608" y1="57.7444" x2="26.9608" y2="55.202" width="0.25" layer="16"/>
+<wire x1="27.2108" y1="57.4944" x2="27.2108" y2="54.952" width="0.25" layer="16"/>
 <wire x1="28.6102" y1="53.1776" x2="28.6102" y2="53.5526" width="0.25" layer="16"/>
-<wire x1="28.6102" y1="53.5526" x2="26.9608" y2="55.202" width="0.25" layer="16"/>
-<wire x1="25.5524" y1="59.1528" x2="26.9608" y2="57.7444" width="0.25" layer="16"/>
+<wire x1="28.6102" y1="53.5526" x2="27.2108" y2="54.952" width="0.25" layer="16"/>
+<wire x1="25.5524" y1="59.1528" x2="27.2108" y2="57.4944" width="0.25" layer="16"/>
 <wire x1="24.2446" y1="59.1528" x2="25.5524" y2="59.1528" width="0.25" layer="16"/>
 <wire x1="35.21" y1="45.8736" x2="35.19" y2="45.79" width="0.25" layer="1"/>
 <wire x1="24.2446" y1="59.1528" x2="24.22" y2="59.235" width="0.25" layer="16"/>
@@ -3950,9 +3953,9 @@ design rules under a new name.</description>
 <contactref element="U3" pad="3"/>
 <contactref element="U1" pad="45"/>
 <wire x1="35.713" y1="47.0016" x2="35.713" y2="45.8736" width="0.25" layer="1"/>
-<wire x1="26.5584" y1="56.1562" x2="35.713" y2="47.0016" width="0.25" layer="1"/>
-<wire x1="26.5584" y1="57.2414" x2="26.5584" y2="56.1562" width="0.25" layer="1"/>
-<wire x1="26.3572" y1="57.4426" x2="26.5584" y2="57.2414" width="0.25" layer="1"/>
+<wire x1="27.1834" y1="55.5312" x2="35.713" y2="47.0016" width="0.25" layer="1"/>
+<wire x1="27.1834" y1="56.6164" x2="27.1834" y2="55.5312" width="0.25" layer="1"/>
+<wire x1="26.3572" y1="57.4426" x2="27.1834" y2="56.6164" width="0.25" layer="1"/>
 <wire x1="25.8542" y1="57.9456" x2="26.3572" y2="57.4426" width="0.25" layer="16"/>
 <wire x1="24.2446" y1="57.9456" x2="25.8542" y2="57.9456" width="0.25" layer="16"/>
 <wire x1="35.713" y1="45.8736" x2="35.69" y2="45.79" width="0.25" layer="1"/>
@@ -4274,7 +4277,7 @@ design rules under a new name.</description>
 <signal name="GNDA">
 <contactref element="U3" pad="4"/>
 <contactref element="D1" pad="C"/>
-<contactref element="GNDA" pad="C"/>
+<contactref element="D2" pad="C"/>
 <contactref element="D3" pad="C"/>
 <contactref element="U1" pad="23"/>
 <contactref element="U1" pad="8"/>
@@ -4511,6 +4514,11 @@ design rules under a new name.</description>
 <via x="55.375" y="46.375" extent="1-16" drill="0.35"/>
 <via x="55.375" y="45.125" extent="1-16" drill="0.35"/>
 <via x="55.375" y="44.125" extent="1-16" drill="0.35"/>
+<via x="26.5" y="54.375" extent="1-16" drill="0.35"/>
+<via x="26.375" y="56.125" extent="1-16" drill="0.35"/>
+<via x="39" y="44" extent="1-16" drill="0.35"/>
+<via x="39" y="42" extent="1-16" drill="0.35"/>
+<via x="40" y="40" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$9">
 <contactref element="J5" pad="GC"/>
@@ -4655,7 +4663,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="R7" pad="2"/>
-<contactref element="GNDA" pad="A"/>
+<contactref element="D2" pad="A"/>
 <wire x1="52.562" y1="48.791" x2="48.8398" y2="48.791" width="0.25" layer="1"/>
 <wire x1="48.8398" y1="48.791" x2="48.815" y2="48.755" width="0.25" layer="1"/>
 <wire x1="52.562" y1="48.791" x2="52.65" y2="48.835" width="0.25" layer="1"/>
