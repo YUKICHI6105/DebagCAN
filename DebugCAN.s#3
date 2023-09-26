@@ -27038,7 +27038,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="D1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="GREEN"/>
-<part name="GNDA" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YELLOW"/>
+<part name="D2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YELLOW"/>
 <part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="RED"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
@@ -27984,7 +27984,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="NAME" x="253.492" y="89.916" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="253.492" y="92.075" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GNDA" gate="G$1" x="248.92" y="78.74" smashed="yes" rot="R90">
+<instance part="D2" gate="G$1" x="248.92" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="253.492" y="82.296" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="253.492" y="84.455" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -28298,7 +28298,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="N$2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="GNDA" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="243.84" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28359,7 +28359,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="256.54" y1="71.12" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="254" y1="86.36" x2="256.54" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="GNDA" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="254" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <junction x="256.54" y="78.74"/>
 <pinref part="D3" gate="G$1" pin="C"/>

@@ -28555,7 +28555,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="71.12" y1="180.34" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAN_LED_MPU" class="0">
+<net name="CAN_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB4-JNTRST"/>
 <wire x1="116.84" y1="124.46" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
