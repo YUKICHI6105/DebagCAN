@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
@@ -3970,9 +3970,8 @@ design rules under a new name.</description>
 <contactref element="J1" pad="GC"/>
 <contactref element="R1" pad="2"/>
 <wire x1="47.225" y1="16.57" x2="47.04175625" y2="16.38675625" width="0.25" layer="16"/>
-<wire x1="47.04175625" y1="16.38675625" x2="46.85" y2="16.38675625" width="0.25" layer="16"/>
-<wire x1="46.85" y1="16.38675625" x2="45.96479375" y2="16.26479375" width="0.25" layer="16"/>
-<wire x1="45.96479375" y1="16.26479375" x2="45.18" y2="15.48" width="0.25" layer="16"/>
+<wire x1="47.04175625" y1="16.38675625" x2="46.08675625" y2="16.38675625" width="0.25" layer="16"/>
+<wire x1="46.08675625" y1="16.38675625" x2="45.18" y2="15.48" width="0.25" layer="16"/>
 </signal>
 <signal name="CANTX">
 <contactref element="U3" pad="2"/>
@@ -4102,9 +4101,7 @@ design rules under a new name.</description>
 <wire x1="28.5704" y1="18.5104" x2="28.5704" y2="18.5354" width="0.5" layer="1"/>
 <wire x1="40.8436" y1="18.9128" x2="29.7776" y2="18.9128" width="0.5" layer="16"/>
 <wire x1="43.9622" y1="15.7942" x2="40.8436" y2="18.9128" width="0.5" layer="16"/>
-<wire x1="43.9622" y1="14.9894" x2="43.9622" y2="15.7942" width="0.5" layer="16"/>
-<wire x1="45.3706" y1="13.581" x2="43.9622" y2="14.9894" width="0.5" layer="16"/>
-<wire x1="50.1994" y1="13.581" x2="45.3706" y2="13.581" width="0.5" layer="16"/>
+<wire x1="43.9622" y1="15.7942" x2="43.9622" y2="14.9894" width="0.5" layer="16"/>
 <wire x1="29.7776" y1="18.9128" x2="29.555" y2="18.99" width="0.5" layer="16"/>
 <wire x1="14.7882" y1="54.324" x2="14.7882" y2="56.6378" width="0.5" layer="16"/>
 <wire x1="19.498" y1="49.6142" x2="14.7882" y2="54.324" width="0.5" layer="16"/>
@@ -4115,7 +4112,9 @@ design rules under a new name.</description>
 <wire x1="28.8722" y1="19.114" x2="28.9728" y2="18.9128" width="0.5" layer="16"/>
 <via x="28.5704" y="18.5104" extent="1-16" drill="0.3048"/>
 <contactref element="U$1" pad="P$2"/>
-<wire x1="50.1994" y1="13.581" x2="50.21" y2="13.605" width="0" layer="19" extent="16-16"/>
+<wire x1="45.3508" y1="13.6008" x2="50.2058" y2="13.6008" width="0.5" layer="16"/>
+<wire x1="50.2058" y1="13.6008" x2="50.21" y2="13.605" width="0.5" layer="16"/>
+<wire x1="43.9622" y1="14.9894" x2="45.3508" y2="13.6008" width="0.5" layer="16"/>
 </signal>
 <signal name="CANH">
 <contactref element="J1" pad="1"/>

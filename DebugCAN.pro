@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/kouza/Desktop/CRS/DebugCAN/DebugCAN.brd
+Job           : C:/Users/kouza/Desktop/CRS/基板データ/DebugCAN/DebugCAN.brd
 
-Start at      : 10:08:33 (2023/06/03)
-End at        : 10:19:14 (2023/06/03)
-Elapsed time  : 00:00:38
+Start at      : 16:27:16 (09/28 (木))
+End at        : 16:27:46 (09/28 (木))
+Elapsed time  : 00:00:28
 
-Signals       :    39   RoutingGrid: 3.96063 mil  Layers: 2
-Connections   :   160   predefined:  68 ( 0 Vias )
+Signals       :    41   RoutingGrid: 3.96063 mil  Layers: 2
+Connections   :   161   predefined:  160 ( 512 Vias )
 
-Router memory :   1549064
+Router memory :   1574184
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:13  00:00:03  00:00:04  00:00:01  00:00:02  00:00:02  00:00:01  00:00:02  00:00:02  00:00:01  00:00:02  00:00:02  00:00:02  00:00:01
-Number of Ripups  :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:27  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        53        90        92        92        92        92        92        92        92        92        92        92        92        92
-Vias              :         0        19        19        14        11        11        11        11        11        10         9         9         9         9
-Resolution        :    75.6 %    98.8 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         1         1         1         1         1         1
+Vias              :         0         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 95.0% finished. Polygons may have fallen apart.
+Final             : 100.0% finished
