@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -149,37 +163,53 @@
 www.pulseeng.com
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="8P8C-LED">
-<description>&lt;b&gt;PULSEJACK (TM) 1x1 Tab-UP RJ45&lt;/b&gt;&lt;p&gt;
-10/100 Base-TX RJ45 1x1 Tab-UP with LEDs 8-pin (J1 series) and 6-pin (JP series) integrated magnetics connector,&lt;br&gt;
-designed to support applications, such as ADSL modems, LAN-on-Motherboard, and Hub and Switches.&lt;br&gt;
-Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
-<wire x1="-8.405" y1="-12" x2="8.405" y2="-12" width="0.2032" layer="21"/>
-<wire x1="8.405" y1="-11.97" x2="8.405" y2="4.34" width="0.2032" layer="51"/>
-<wire x1="-8.405" y1="4.34" x2="-8.405" y2="-11.97" width="0.2032" layer="51"/>
-<wire x1="-8.405" y1="4.34" x2="8.405" y2="4.34" width="0.2032" layer="21"/>
-<wire x1="-8.405" y1="4.34" x2="-8.405" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-8.405" y1="-5.08" x2="-8.405" y2="-12" width="0.2032" layer="21"/>
-<wire x1="8.405" y1="-12" x2="8.405" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="8.405" y1="-1.27" x2="8.405" y2="4.34" width="0.2032" layer="21"/>
-<pad name="1" x="3.57" y="-3.81" drill="0.9" diameter="1.3"/>
-<pad name="2" x="2.55" y="-2.03" drill="0.9" diameter="1.3"/>
-<pad name="3" x="1.53" y="-3.81" drill="0.9" diameter="1.3"/>
-<pad name="4" x="0.51" y="-2.03" drill="0.9" diameter="1.3"/>
-<pad name="5" x="-0.51" y="-3.81" drill="0.9" diameter="1.3"/>
-<pad name="6" x="-1.53" y="-2.03" drill="0.9" diameter="1.3"/>
-<pad name="7" x="-2.55" y="-3.81" drill="0.9" diameter="1.3"/>
-<pad name="8" x="-3.57" y="-2.03" drill="0.9" diameter="1.3"/>
-<pad name="M1" x="-8" y="-2.85" drill="1.6" diameter="2.1844"/>
-<pad name="M2" x="8" y="-2.85" drill="1.6" diameter="2.1844"/>
-<pad name="GC" x="7.04" y="2.78" drill="1" diameter="1.4224"/>
-<pad name="YA" x="-7.04" y="2.78" drill="1" diameter="1.4224"/>
-<pad name="GA" x="4.5" y="2.78" drill="1" diameter="1.4224"/>
-<pad name="YC" x="-4.5" y="2.78" drill="1" diameter="1.4224"/>
-<text x="-7.62" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.62" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="6.35" y="-6.35" drill="3.2"/>
-<hole x="-6.35" y="-6.35" drill="3.2"/>
+<package name="RJHSE538102">
+<description>&lt;b&gt;RJHSE-5381-02-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="A1" x="0" y="0" drill="0.94" diameter="1.462"/>
+<pad name="A2" x="-1.02" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="A3" x="-2.04" y="0" drill="0.94" diameter="1.462"/>
+<pad name="A4" x="-3.06" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="A5" x="-4.08" y="0" drill="0.94" diameter="1.462"/>
+<pad name="A6" x="-5.1" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="A7" x="-6.12" y="0" drill="0.94" diameter="1.462"/>
+<pad name="A8" x="-7.14" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="A9" x="3.28" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="A10" x="1.25" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="A11" x="-8.15" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="A12" x="-10.44" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="B1" x="15.75" y="0" drill="0.94" diameter="1.462"/>
+<pad name="B2" x="14.73" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="B3" x="13.71" y="0" drill="0.94" diameter="1.462"/>
+<pad name="B4" x="12.69" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="B5" x="11.67" y="0" drill="0.94" diameter="1.462"/>
+<pad name="B6" x="10.65" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="B7" x="9.63" y="0" drill="0.94" diameter="1.462"/>
+<pad name="B8" x="8.61" y="1.78" drill="0.94" diameter="1.462"/>
+<pad name="B9" x="19.03" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="B10" x="16.74" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="B11" x="7.34" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="B12" x="5.31" y="6.6" drill="0.94" diameter="1.462"/>
+<pad name="MH1" x="-11.705" y="0.89" drill="1.62" diameter="2.43"/>
+<pad name="MH2" x="20.295" y="0.89" drill="1.62" diameter="2.43"/>
+<hole x="-9.93" y="-2.54" drill="3.3"/>
+<hole x="18.52" y="-2.54" drill="3.3"/>
+<text x="4.295" y="-0.125" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="4.295" y="-0.125" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-11.835" y1="7.75" x2="20.425" y2="7.75" width="0.2" layer="51"/>
+<wire x1="20.425" y1="7.75" x2="20.425" y2="-8" width="0.2" layer="51"/>
+<wire x1="20.425" y1="-8" x2="-11.835" y2="-8" width="0.2" layer="51"/>
+<wire x1="-11.835" y1="-8" x2="-11.835" y2="7.75" width="0.2" layer="51"/>
+<wire x1="-13.92" y1="8.75" x2="22.51" y2="8.75" width="0.1" layer="51"/>
+<wire x1="22.51" y1="8.75" x2="22.51" y2="-9" width="0.1" layer="51"/>
+<wire x1="22.51" y1="-9" x2="-13.92" y2="-9" width="0.1" layer="51"/>
+<wire x1="-13.92" y1="-9" x2="-13.92" y2="8.75" width="0.1" layer="51"/>
+<wire x1="-11.835" y1="2.68" x2="-11.835" y2="7.75" width="0.1" layer="21"/>
+<wire x1="-11.835" y1="7.75" x2="20.425" y2="7.75" width="0.1" layer="21"/>
+<wire x1="20.425" y1="7.75" x2="20.425" y2="2.68" width="0.1" layer="21"/>
+<wire x1="20.425" y1="-0.88" x2="20.425" y2="-8" width="0.1" layer="21"/>
+<wire x1="20.425" y1="-8" x2="-11.835" y2="-8" width="0.1" layer="21"/>
+<wire x1="-11.835" y1="-8" x2="-11.835" y2="-0.88" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -286,34 +316,51 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="8P8C-LED" prefix="X">
-<description>generic 8P8C connector with two LED's</description>
+<deviceset name="RJHSE-5381-02" prefix="J">
+<description>&lt;b&gt;Modular Connectors / Ethernet Connectors R/A RJ45 SHEILDED 2 PORT Y/G LEDS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RJHSE-5381-02.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="8P8C-LED" x="0" y="0" addlevel="always"/>
+<gate name="G$1" symbol="8P8C-LED" x="-22.86" y="2.54"/>
+<gate name="G$2" symbol="8P8C-LED" x="22.86" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="8P8C-LED">
+<device name="" package="RJHSE538102">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="A-G" pad="GA"/>
-<connect gate="G$1" pin="A-Y" pad="YA"/>
-<connect gate="G$1" pin="C-G" pad="GC"/>
-<connect gate="G$1" pin="C-Y" pad="YC"/>
-<connect gate="G$1" pin="SHIELD" pad="M1 M2"/>
+<connect gate="G$1" pin="1" pad="A1"/>
+<connect gate="G$1" pin="2" pad="A2"/>
+<connect gate="G$1" pin="3" pad="A3"/>
+<connect gate="G$1" pin="4" pad="A4"/>
+<connect gate="G$1" pin="5" pad="A5"/>
+<connect gate="G$1" pin="6" pad="A6"/>
+<connect gate="G$1" pin="7" pad="A7"/>
+<connect gate="G$1" pin="8" pad="A8"/>
+<connect gate="G$1" pin="A-G" pad="A10"/>
+<connect gate="G$1" pin="A-Y" pad="A12"/>
+<connect gate="G$1" pin="C-G" pad="A9"/>
+<connect gate="G$1" pin="C-Y" pad="A11"/>
+<connect gate="G$1" pin="SHIELD" pad="MH1"/>
+<connect gate="G$2" pin="1" pad="B1"/>
+<connect gate="G$2" pin="2" pad="B2"/>
+<connect gate="G$2" pin="3" pad="B3"/>
+<connect gate="G$2" pin="4" pad="B4"/>
+<connect gate="G$2" pin="5" pad="B5"/>
+<connect gate="G$2" pin="6" pad="B6"/>
+<connect gate="G$2" pin="7" pad="B7"/>
+<connect gate="G$2" pin="8" pad="B8"/>
+<connect gate="G$2" pin="A-G" pad="B10"/>
+<connect gate="G$2" pin="A-Y" pad="B12"/>
+<connect gate="G$2" pin="C-G" pad="B9"/>
+<connect gate="G$2" pin="C-Y" pad="B11"/>
+<connect gate="G$2" pin="SHIELD" pad="MH2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="DESCRIPTION" value="Modular Connectors / Ethernet Connectors R/A RJ45 SHEILDED 2 PORT Y/G LEDS" constant="no"/>
+<attribute name="HEIGHT" value="13.46mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RJHSE-5381-02" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="523-RJHSE-5381-02" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=523-RJHSE-5381-02" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -27200,7 +27247,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </class>
 </classes>
 <parts>
-<part name="J1" library="con-rj45" deviceset="8P8C-LED" device=""/>
 <part name="U2" library="on-semi" deviceset="NCV7351D1E" device="" package3d_urn="urn:adsk.eagle:package:15356/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
@@ -27285,15 +27331,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="J5" library="con-rj45" deviceset="8P8C-LED" device=""/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="J6" library="con-rj45" deviceset="8P8C-LED" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
@@ -27301,13 +27341,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="J7" library="con-rj45" deviceset="8P8C-LED" device=""/>
-<part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
-<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDIO" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="U6" library="toshiba" deviceset="TLP291" device="" package3d_urn="urn:adsk.eagle:package:21958/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
@@ -27326,16 +27361,14 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="F1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
+<part name="J8" library="con-rj45" deviceset="RJHSE-5381-02" device=""/>
+<part name="J1" library="con-rj45" deviceset="RJHSE-5381-02" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="190.5" y="43.18" smashed="yes">
-<attribute name="NAME" x="172.72" y="72.39" size="1.778" layer="95"/>
-<attribute name="VALUE" x="172.72" y="2.54" size="1.778" layer="96"/>
-</instance>
 <instance part="U2" gate="G$1" x="109.22" y="66.04" smashed="yes">
 <attribute name="NAME" x="101.6" y="77.47" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="53.34" size="1.778" layer="96"/>
@@ -27355,16 +27388,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND5" gate="G$1" x="147.32" y="33.02" smashed="yes" rot="R270">
 <attribute name="VALUE" x="144.78" y="35.56" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND6" gate="G$1" x="152.4" y="22.86" smashed="yes" rot="R270">
-<attribute name="VALUE" x="149.86" y="25.4" size="1.778" layer="96" rot="R270"/>
+<instance part="GND6" gate="G$1" x="200.66" y="22.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="198.12" y="25.4" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R1" gate="G$1" x="162.56" y="22.86" smashed="yes">
-<attribute name="NAME" x="158.75" y="24.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="19.558" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="210.82" y="22.86" smashed="yes">
+<attribute name="NAME" x="207.01" y="24.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="19.558" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="162.56" y="12.7" smashed="yes">
-<attribute name="NAME" x="158.75" y="14.1986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="9.398" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="210.82" y="12.7" smashed="yes">
+<attribute name="NAME" x="207.01" y="14.1986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="9.398" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="60.96" y="35.56" smashed="yes">
 <attribute name="NAME" x="62.484" y="35.941" size="1.778" layer="95"/>
@@ -27436,38 +27469,18 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND30" gate="1" x="10.16" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="7.62" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND31" gate="1" x="149.86" y="12.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="147.32" y="15.24" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="198.12" y="12.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="198.12" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="G$1" x="66.04" y="190.5" smashed="yes">
-<attribute name="NAME" x="48.26" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="48.26" y="149.86" size="1.778" layer="96"/>
+<instance part="GND37" gate="G$1" x="139.7" y="172.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="137.16" y="175.26" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND34" gate="G$1" x="43.18" y="205.74" smashed="yes" rot="R270">
-<attribute name="VALUE" x="40.64" y="208.28" size="1.778" layer="96" rot="R270"/>
+<instance part="R9" gate="G$1" x="149.86" y="172.72" smashed="yes">
+<attribute name="NAME" x="146.05" y="174.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="169.418" size="1.778" layer="96"/>
 </instance>
-<instance part="GND35" gate="G$1" x="22.86" y="185.42" smashed="yes" rot="R270">
-<attribute name="VALUE" x="20.32" y="187.96" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND36" gate="G$1" x="22.86" y="180.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="20.32" y="182.88" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND37" gate="G$1" x="27.94" y="170.18" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.4" y="172.72" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R9" gate="G$1" x="38.1" y="170.18" smashed="yes">
-<attribute name="NAME" x="34.29" y="171.6786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.29" y="166.878" size="1.778" layer="96"/>
-</instance>
-<instance part="GND38" gate="G$1" x="38.1" y="154.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.56" y="157.48" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND39" gate="1" x="25.4" y="160.02" smashed="yes" rot="R270">
-<attribute name="VALUE" x="22.86" y="162.56" size="1.778" layer="96"/>
-</instance>
-<instance part="J6" gate="G$1" x="180.34" y="193.04" smashed="yes">
-<attribute name="NAME" x="162.56" y="222.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="162.56" y="152.4" size="1.778" layer="96"/>
+<instance part="GND39" gate="1" x="139.7" y="162.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="139.7" y="162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="GND40" gate="G$1" x="157.48" y="208.28" smashed="yes" rot="R270">
 <attribute name="VALUE" x="154.94" y="210.82" size="1.778" layer="96" rot="R270"/>
@@ -27478,44 +27491,28 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND42" gate="G$1" x="137.16" y="182.88" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.62" y="185.42" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND43" gate="G$1" x="142.24" y="172.72" smashed="yes" rot="R270">
-<attribute name="VALUE" x="139.7" y="175.26" size="1.778" layer="96" rot="R270"/>
+<instance part="GND43" gate="G$1" x="190.5" y="172.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="187.96" y="175.26" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R11" gate="G$1" x="152.4" y="172.72" smashed="yes">
-<attribute name="NAME" x="148.59" y="174.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="148.59" y="169.418" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="200.66" y="172.72" smashed="yes">
+<attribute name="NAME" x="196.85" y="174.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.85" y="169.418" size="1.778" layer="96"/>
 </instance>
 <instance part="GND44" gate="G$1" x="152.4" y="157.48" smashed="yes" rot="R270">
 <attribute name="VALUE" x="149.86" y="160.02" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND45" gate="1" x="139.7" y="162.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="137.16" y="165.1" size="1.778" layer="96"/>
+<instance part="GND45" gate="1" x="190.5" y="162.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="187.96" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="304.8" y="193.04" smashed="yes">
-<attribute name="NAME" x="287.02" y="222.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="287.02" y="152.4" size="1.778" layer="96"/>
+<instance part="GND49" gate="G$1" x="149.86" y="22.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="147.32" y="25.4" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND46" gate="G$1" x="281.94" y="208.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="279.4" y="210.82" size="1.778" layer="96" rot="R270"/>
+<instance part="R13" gate="G$1" x="160.02" y="22.86" smashed="yes">
+<attribute name="NAME" x="156.21" y="24.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="19.558" size="1.778" layer="96"/>
 </instance>
-<instance part="GND47" gate="G$1" x="261.62" y="187.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="259.08" y="190.5" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND48" gate="G$1" x="261.62" y="182.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="259.08" y="185.42" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND49" gate="G$1" x="266.7" y="172.72" smashed="yes" rot="R270">
-<attribute name="VALUE" x="264.16" y="175.26" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R13" gate="G$1" x="276.86" y="172.72" smashed="yes">
-<attribute name="NAME" x="273.05" y="174.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="273.05" y="169.418" size="1.778" layer="96"/>
-</instance>
-<instance part="GND50" gate="G$1" x="276.86" y="157.48" smashed="yes" rot="R270">
-<attribute name="VALUE" x="274.32" y="160.02" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND51" gate="1" x="264.16" y="162.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="261.62" y="165.1" size="1.778" layer="96"/>
+<instance part="GND51" gate="1" x="149.86" y="12.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="144.78" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="U6" gate="G$1" x="76.2" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.185" y="9.525" size="1.778" layer="95" rot="R180"/>
@@ -27542,31 +27539,47 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="NAME" x="116.332" y="18.3642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.332" y="15.3162" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="G$1" x="236.22" y="63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="233.68" y="66.04" size="1.778" layer="96" rot="R270"/>
+<instance part="GND7" gate="G$1" x="190.5" y="101.6" smashed="yes" rot="R270">
+<attribute name="VALUE" x="187.96" y="104.14" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+3" gate="1" x="233.68" y="50.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="238.76" y="48.26" size="1.778" layer="96" rot="R180"/>
+<instance part="P+3" gate="1" x="187.96" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="193.04" y="86.36" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="254" y="60.96" smashed="yes">
-<attribute name="NAME" x="248.91255" y="66.68338125" size="1.780609375" layer="95"/>
-<attribute name="VALUE" x="248.9118" y="53.327709375" size="1.78086875" layer="96"/>
+<instance part="J2" gate="G$1" x="208.28" y="99.06" smashed="yes">
+<attribute name="NAME" x="203.19255" y="104.78338125" size="1.780609375" layer="95"/>
+<attribute name="VALUE" x="203.1918" y="91.427709375" size="1.78086875" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="35.56" y="160.02" smashed="yes">
-<attribute name="NAME" x="31.75" y="161.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="156.718" size="1.778" layer="96"/>
-</instance>
-<instance part="R12" gate="G$1" x="149.86" y="162.56" smashed="yes">
+<instance part="R10" gate="G$1" x="149.86" y="162.56" smashed="yes">
 <attribute name="NAME" x="146.05" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="159.258" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="274.32" y="162.56" smashed="yes">
-<attribute name="NAME" x="270.51" y="164.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="270.51" y="159.258" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="200.66" y="162.56" smashed="yes">
+<attribute name="NAME" x="196.85" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.85" y="159.258" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="160.02" y="12.7" smashed="yes">
+<attribute name="NAME" x="156.21" y="14.1986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="9.398" size="1.778" layer="96"/>
 </instance>
 <instance part="F1" gate="G$1" x="12.7" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.51" y="103.0986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="16.51" y="98.298" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="J8" gate="G$1" x="190.5" y="43.18" smashed="yes">
+<attribute name="NAME" x="172.72" y="72.39" size="1.778" layer="95"/>
+<attribute name="VALUE" x="172.72" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="J8" gate="G$2" x="241.3" y="43.18" smashed="yes">
+<attribute name="NAME" x="223.52" y="72.39" size="1.778" layer="95"/>
+<attribute name="VALUE" x="223.52" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="180.34" y="193.04" smashed="yes">
+<attribute name="NAME" x="162.56" y="222.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="152.4" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$2" x="231.14" y="193.04" smashed="yes">
+<attribute name="NAME" x="213.36" y="222.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.36" y="152.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -27584,23 +27597,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="88.9" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="GND3" gate="G$1" pin="GNDIO"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
 <pinref part="GND4" gate="G$1" pin="GNDIO"/>
 <wire x1="149.86" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="220.98" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="33.02" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="7"/>
+<pinref part="J8" gate="G$2" pin="8"/>
+<pinref part="J8" gate="G$1" pin="7"/>
+<pinref part="J8" gate="G$1" pin="8"/>
 <pinref part="GND5" gate="G$1" pin="GNDIO"/>
 <wire x1="149.86" y1="33.02" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="G$1" pin="GNDIO"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="22.86" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -27608,9 +27619,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="60.96" y1="30.48" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
 <pinref part="GND11" gate="G$1" pin="GNDIO"/>
 <wire x1="165.1" y1="7.62" x2="170.18" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="SHIELD"/>
+<pinref part="J8" gate="G$2" pin="SHIELD"/>
+<wire x1="220.98" y1="7.62" x2="170.18" y2="7.62" width="0.1524" layer="91"/>
+<junction x="170.18" y="7.62"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND2"/>
@@ -27643,76 +27657,39 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="GND13" gate="G$1" pin="GNDIO"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<pinref part="GND34" gate="G$1" pin="GNDIO"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="7"/>
-<pinref part="GND35" gate="G$1" pin="GNDIO"/>
-<wire x1="25.4" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="8"/>
-<pinref part="GND36" gate="G$1" pin="GNDIO"/>
-<wire x1="25.4" y1="180.34" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND37" gate="G$1" pin="GNDIO"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="SHIELD"/>
-<pinref part="GND38" gate="G$1" pin="GNDIO"/>
-<wire x1="40.64" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="3"/>
-<pinref part="GND40" gate="G$1" pin="GNDIO"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="7"/>
 <pinref part="GND41" gate="G$1" pin="GNDIO"/>
 <wire x1="139.7" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="210.82" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="7"/>
+<pinref part="J1" gate="G$2" pin="8"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<pinref part="J1" gate="G$1" pin="8"/>
 <pinref part="GND42" gate="G$1" pin="GNDIO"/>
 <wire x1="139.7" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND43" gate="G$1" pin="GNDIO"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="SHIELD"/>
 <pinref part="GND44" gate="G$1" pin="GNDIO"/>
 <wire x1="154.94" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="3"/>
-<pinref part="GND46" gate="G$1" pin="GNDIO"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="7"/>
-<pinref part="GND47" gate="G$1" pin="GNDIO"/>
-<wire x1="264.16" y1="187.96" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="8"/>
-<pinref part="GND48" gate="G$1" pin="GNDIO"/>
-<wire x1="264.16" y1="182.88" x2="284.48" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<pinref part="J1" gate="G$2" pin="SHIELD"/>
+<wire x1="210.82" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
+<junction x="160.02" y="157.48"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="G$1" pin="GNDIO"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="172.72" x2="269.24" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="SHIELD"/>
-<pinref part="GND50" gate="G$1" pin="GNDIO"/>
-<wire x1="279.4" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="22.86" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND52" gate="G$1" pin="GNDIO"/>
@@ -27722,14 +27699,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="G$1" pin="GNDIO"/>
-<wire x1="243.84" y1="63.5" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$3" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="C-G"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="22.86" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="3"/>
+<pinref part="J8" gate="G$1" pin="3"/>
+<pinref part="GND3" gate="G$1" pin="GNDIO"/>
+<junction x="170.18" y="58.42"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="208.28" x2="160.02" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="GND40" gate="G$1" pin="GNDIO"/>
+<junction x="160.02" y="208.28"/>
 </segment>
 </net>
 <net name="CANTX" class="0">
@@ -27800,7 +27784,6 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="CANH"/>
 <wire x1="170.18" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -27810,27 +27793,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="154.94" y1="68.58" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <label x="149.86" y="66.04" size="1.778" layer="95" rot="R180"/>
+<wire x1="220.98" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="1"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="215.9" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
-<label x="33.02" y="215.9" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="218.44" x2="144.78" y2="218.44" width="0.1524" layer="91"/>
 <label x="144.78" y="218.44" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="218.44" x2="266.7" y2="218.44" width="0.1524" layer="91"/>
-<label x="266.7" y="218.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="210.82" y1="218.44" x2="160.02" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="CANL"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
@@ -27839,21 +27816,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="165.1" y1="63.5" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="157.48" y="60.96" size="1.778" layer="95" rot="R180"/>
+<wire x1="220.98" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="2"/>
+<pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
-<label x="33.02" y="210.82" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="213.36" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
 <label x="144.78" y="213.36" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="213.36" x2="266.7" y2="213.36" width="0.1524" layer="91"/>
-<label x="266.7" y="213.36" size="1.778" layer="95" rot="R180"/>
+<wire x1="210.82" y1="213.36" x2="160.02" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -27890,48 +27862,26 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND31" gate="1" pin="GNDA"/>
-<wire x1="157.48" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="12.7" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="GND39" gate="1" pin="GNDA"/>
-<wire x1="30.48" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GNDA"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="GND51" gate="1" pin="GNDA"/>
-<wire x1="269.24" y1="162.56" x2="266.7" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="C-G"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="C-G"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="C-G"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="172.72" x2="284.48" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EMS" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="170.18" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="43.18" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
@@ -27941,21 +27891,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="106.68" y1="43.18" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="43.18" x2="170.18" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="6"/>
+<pinref part="J8" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="6"/>
-<wire x1="45.72" y1="190.5" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
-<label x="17.78" y="190.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="6"/>
 <wire x1="160.02" y1="193.04" x2="132.08" y2="193.04" width="0.1524" layer="91"/>
 <label x="132.08" y="193.04" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="6"/>
-<wire x1="284.48" y1="193.04" x2="254" y2="193.04" width="0.1524" layer="91"/>
-<label x="254" y="193.04" size="1.778" layer="95" rot="R180"/>
+<wire x1="210.82" y1="193.04" x2="160.02" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="6"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="1"/>
@@ -27999,61 +27944,30 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </net>
 <net name="CAN_LED" class="0">
 <segment>
+<wire x1="160.02" y1="167.64" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
+<label x="129.54" y="167.64" size="1.778" layer="95" rot="R180"/>
 <pinref part="J1" gate="G$1" pin="A-Y"/>
+<pinref part="J1" gate="G$2" pin="A-Y"/>
+<wire x1="210.82" y1="167.64" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
+<junction x="160.02" y="167.64"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$2" pin="A-Y"/>
+<label x="210.82" y="17.78" size="1.778" layer="95"/>
+<wire x1="220.98" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="17.78" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="17.78" x2="139.7" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="5.08" x2="119.38" y2="5.08" width="0.1524" layer="91"/>
 <label x="119.38" y="5.08" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="A-Y"/>
-<wire x1="45.72" y1="165.1" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
-<label x="15.24" y="165.1" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="A-Y"/>
-<wire x1="160.02" y1="167.64" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
-<label x="129.54" y="167.64" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="A-Y"/>
-<wire x1="284.48" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
-<label x="254" y="167.64" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="C-Y"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="J5" gate="G$1" pin="C-Y"/>
-<wire x1="40.64" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="J6" gate="G$1" pin="C-Y"/>
-<wire x1="154.94" y1="162.56" x2="160.02" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="C-Y"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="A-Y"/>
+<junction x="170.18" y="17.78"/>
 </segment>
 </net>
 <net name="DCIN" class="2">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
-<label x="231.14" y="58.42" size="1.778" layer="95" rot="R180"/>
+<wire x1="198.12" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<label x="185.42" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -28061,64 +27975,104 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="0" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="40.64" y1="200.66" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="200.66" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
-<junction x="40.64" y="200.66"/>
-<pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="40.64" y1="195.58" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="200.66" x2="20.32" y2="200.66" width="0.1524" layer="91"/>
-<label x="22.86" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="165.1" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="53.34" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
 <junction x="165.1" y="53.34"/>
-<pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="165.1" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="147.32" y="53.34" size="1.778" layer="95"/>
+<wire x1="220.98" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$2" pin="4"/>
+<pinref part="J8" gate="G$2" pin="5"/>
+<pinref part="J8" gate="G$1" pin="4"/>
+<pinref part="J8" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="4"/>
-<wire x1="279.4" y1="203.2" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="203.2" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
-<junction x="279.4" y="203.2"/>
-<pinref part="J7" gate="G$1" pin="5"/>
-<wire x1="279.4" y1="198.12" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="203.2" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
-<label x="261.62" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="154.94" y1="203.2" x2="160.02" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="203.2" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
 <junction x="154.94" y="203.2"/>
-<pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="154.94" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="203.2" x2="134.62" y2="203.2" width="0.1524" layer="91"/>
 <label x="137.16" y="203.2" size="1.778" layer="95"/>
+<wire x1="210.82" y1="203.2" x2="160.02" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$2" pin="4"/>
+<pinref part="J1" gate="G$2" pin="5"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="A-G"/>
-<wire x1="30.48" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
-<label x="30.48" y="175.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="A-G"/>
 <wire x1="144.78" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
 <label x="144.78" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="A-G"/>
-<wire x1="269.24" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
-<label x="269.24" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="A-G"/>
+<pinref part="J1" gate="G$2" pin="A-G"/>
+<wire x1="210.82" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
+<junction x="160.02" y="177.8"/>
+</segment>
+<segment>
 <wire x1="154.94" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="154.94" y="27.94" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="A-G"/>
+<pinref part="J8" gate="G$2" pin="A-G"/>
+<wire x1="220.98" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
+<junction x="170.18" y="27.94"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="C-G"/>
+<wire x1="160.02" y1="172.72" x2="154.94" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="C-Y"/>
+<wire x1="160.02" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="C-Y"/>
+<wire x1="210.82" y1="162.56" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="C-G"/>
+<wire x1="210.82" y1="172.72" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J8" gate="G$2" pin="C-G"/>
+<wire x1="220.98" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J8" gate="G$2" pin="C-Y"/>
+<wire x1="220.98" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="C-Y"/>
+<wire x1="170.18" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="C-G"/>
+<wire x1="170.18" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
